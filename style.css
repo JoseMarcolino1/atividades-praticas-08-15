@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+}
+
+
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+	background: #36d7ff;
+    box-shadow: 0 0 1rem black;
+	align-items: center;
+}
+
+main, .pontos, .fotos, .mapa{
+	width: auto;
+}
+
+nav ul {
+    display: flex;
+    margin: 35px;
+}
+
+nav li {
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 2rem;
+}
+
+nav a {
+    text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+	font-style: 22px;
+	text-decoration: none;
+}
+
+.pontos {
+	width: auto;
+	margin: auto;
+	padding: 50px 0;
+}
+
+.l1{
+    padding: 10px;
+}
+
+.pt2 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.fotos {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+}
+
+
+.mapa {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+
+}
+
+.descricao{
+	text-align: center;
+	width: auto;
+}
+
+footer {
+	height: 10vh;
+    display: flex;
+    justify-content: space-between;
+	background: #36d7ff;
+    box-shadow: 0 0 1rem black;
+	align-items: center;
+}
+/* Para a pg sobre */
+div{
+    padding: 60px;
+    text-align: center;
+}
+/* Para a pg duvidas*/
+
+.main {
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px 45px;
+	width: 500px;
+}
+
+p {
+    padding: 20px;
+}
+
+h2 {
+	font-size: 2.5rem;
+	margin: 2rem;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+    
+}
+
+form label{
+	font-size: 17px;
+	margin-bottom: 4px;
+}
+
+form input {
+	padding: 15px;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+form input:focus {
+	border-radius: 15px;
+}
+
+form textarea {
+	padding: 10px;
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+
+form textarea:focus {
+	border-radius: 15px;
+}
+
+form button {
+	padding: 15px;
+	cursor: pointer;
+	font-size: 15px;
+	background: #36d7ff;
+}
+
+form button:hover {
+
+	background: rgb(255, 153, 0);
+	color: rgb(0, 0, 0);
+	border-radius: 15px;
+}

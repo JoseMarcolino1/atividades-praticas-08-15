@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.redes ul li {
+    padding: 10px;
+}
+
+img {
+    max-width: 40px;
+}
+
+.a {
+    margin-left: 50px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head charset="UTF-8">
+		<title>Contato</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<h1><img class="logo" src="tourura.png"></h1>
+			<nav>
+				<ul>
+				   <li class="cabecalho"><a href="index.html">Home</a></li>
+				   <li class="cabecalho"><a href="sobre.html">Sobre</a></li>
+				   <li class="cabecalho"><a href="contato.html">Duvidas</a></li>
+			   </ul>
+		   </nav>
+		</header>
+		<main class="main">
+			<h2>Duvidas</h2>
+			<p>Em caso de duvida é só entrar em contato comigo</p>
+			<form action="https://api.staticforms.xyz/submit" method="post">
+				<label for="nomesobrenome">Nome e sobrenome</label>
+				<input type="text" id="nomesobrenome" placeholder="Digite seu nome" class="input">
+
+				<label for="email">Email</label>
+				<input type="text" id="email" placeholder="Digite o seu email" class="input">
+
+				<label for="telefone">Telefone</label>
+				<input type="text" id="telefone" placeholder="Digite o seu numero" class="input">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem" placeholder="Digite sua mensagem" class="input"></textarea>
+				<button type="submit">Enviar</button>
+
+				<input type="hidden" name="accessKey" value="8ef83343-839e-4ac9-9178-eaa0d599817b">
+				<input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/agradecimento.html">
+			</form>
+		</main>
+	</body>
+</html>
